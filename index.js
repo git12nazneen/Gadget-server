@@ -10,8 +10,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-    //   "https://camp-aid.web.app",
-    //   "https://camp-aid.firebaseapp.com",
+      "gadgetzone-93c88.web.app",
+      "gadgetzone-93c88.firebaseapp.com",
      
     ],
     credentials: true,
@@ -37,7 +37,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
     // Send a ping to confirm a successful connection
     // await client.db("admin").command({ ping: 1 });
 
