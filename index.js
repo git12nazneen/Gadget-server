@@ -10,8 +10,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "gadgetzone-93c88.web.app",
-      "gadgetzone-93c88.firebaseapp.com",
+      "https://gadgetzone-93c88.web.app",
+      "https://gadgetzone-93c88.firebaseapp.com",
      
     ],
     credentials: true,
