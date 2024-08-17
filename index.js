@@ -88,7 +88,6 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
     res.send("Gadgetshop is running");
   });
-  
   app.listen(port, () => {
     console.log(`Gadgetshop  is on port: ${port}`);
   });
